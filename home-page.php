@@ -1,12 +1,15 @@
 <?php
+
 /* Template Name: Home Page */
 
 get_header();
+
 ?>
 
 
-	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-		 <!-- Navigation -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+	 <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -47,6 +50,7 @@ get_header();
         </div>
         <!-- /.container -->
     </nav>
+
 	<!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
@@ -503,7 +507,7 @@ get_header();
         <div class="row">
            <h2>Aktualności</h2>
            <hr />
-            <?php get_template_part('news-carousel'); ?>
+            <?php get_template_part('content-news-carousel'); ?>
         </div>
     </section>
     </div>
