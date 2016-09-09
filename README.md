@@ -1,10 +1,10 @@
 # ITAD-2016-Poznan-Site
 
 ###Authors:
-Konrad Dysput
-Radosław Waberski
-Grzegorz Kotlarz
-Jakub Nurski
+* Jakub Nurski
+* Konrad Dysput
+* Radosław Waberski
+* Grzegorz Kotlarz
 
 ###Technologies:
 * JavaScript

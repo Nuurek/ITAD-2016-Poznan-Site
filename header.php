@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 
@@ -6,9 +5,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Strona promocyjna ITAD na Politechnice Poznańskiej">
+    <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="Grupa.NET PUT.NET ITAD  2016r.">
-    <title>ITAD</title>
+    <title><?php bloginfo('name'); ?></title>
 
     <link href="<?php echo get_template_directory_uri(); ?>/styles/site.css" rel="stylesheet">
 

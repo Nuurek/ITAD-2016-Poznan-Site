@@ -9,29 +9,29 @@ get_header();
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <?php get_section('navigation') ?>
+    <?php
 
-	<!-- Intro Header -->
-    <?php get_section('intro-header'); ?>
+    /* Navigation */
+    get_section('navigation');
 
-    <!-- News Section -->
-    <?php get_section('news'); ?>
+	/* Intro Header */
+    get_section('intro-header');
 
-    <!-- Agenda Section -->
-    <?php get_section('agenda'); ?>
+    /* News Section */
+    get_section('news');
 
-    <!-- Partners Section -->
-    <?php get_section('partners'); ?>
+    /* Agenda Section */
+    get_section('agenda');
 
-    <!-- Localization Section -->
-    <?php get_section('localization'); ?>
+    /* Partners Section */
+    get_section('partners');
 
-    <!-- Contact Section -->
-    <?php get_section('contact'); ?>
+    /* Localization Section */
+    get_section('localization');
 
-    <script src="<?php echo get_template_directory_uri(); ?>/scripts/site.js"></script>
+    /* Contact Section */
+    get_section('contact');
 
-</body>
+    get_footer();
 
-</html>
+    ?>
